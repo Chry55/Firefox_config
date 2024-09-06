@@ -1,0 +1,50 @@
+#appMenu-passwords-button {
+	display: none !important;
+}
+
+/* Autohide back button when disabled */
+#back-button, #forward-button {
+    transform: scale(1, 1) !important;
+    transition: margin-left 150ms var(--animation-easing-function), opacity 250ms var(--animation-easing-function), transform 350ms var(--animation-easing-function) !important;
+}
+
+#back-button[disabled="true"], #forward-button[disabled="true"] {
+    margin-left: -34px !important;
+    opacity: 0 !important;
+    transform: scale(0.8, 0.8) !important;
+    pointer-events: none !important;
+}
+
+#alltabs-button {
+	display: none !important
+}
+
+.titlebar-spacer[type="post-tabs"] {
+	display: none !important;
+}
+
+/* Extension name inside URL bar */
+#identity-box.extensionPage #identity-icon-label {
+  visibility: collapse !important
+}
+
+/*  Removes urlbar border/background  */
+#urlbar-background {
+  border: none !important;
+  outline: none !important;
+  transition: .15s !important;
+}
+
+#urlbar .search-one-offs .search-panel-header {
+    display: none !important;
+  }
+
+/*  Removes annoying border  */
+#navigator-toolbox {
+    border: none !important
+}
+
+/* Fades window while not in focus */
+#navigator-toolbox-background:-moz-window-inactive {
+  filter: contrast(90%)
+}
