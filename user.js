@@ -99,8 +99,8 @@ user_pref("browser.download.open_pdf_attachments_inline", true);
 user_pref("permissions.manager.defaultsUrl", "");
 user_pref("webchannel.allowObject.urlWhitelist", "");
 
-user_pref("ui.key.menuAccessKeyFocuses", false)
-user_pref("extensions.poket.enabled", false)
+user_pref("ui.key.menuAccessKeyFocuses", false);
+user_pref("extensions.poket.enabled", false);
 
 user_pref("browser.translations.automaticallyPopup", false);
 user_pref("browser.translations.panelShown", true);
@@ -124,5 +124,5 @@ user_pref("toolkit.coverage.opt-out", true);
 user_pref("toolkit.coverage.endpoint.base", "");
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.telemetry", false);
-
-widget.gtk.rounded-bottom-corners.enabled
+user_pref("browser.cache.disk.enable", false);
+user_pref("browser.cache.memory.capacity", 524288);
